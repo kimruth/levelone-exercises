@@ -1,0 +1,37 @@
+/* css resset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* short form */
+    padding: 6px 8px;
+}
+
+header#header-section {
+    height: 100vh;
+    /* background-color: linear(rgb(34, 89, 133, 0.7), rgb(61, 54, 90, 0.7)) ; */
+    background: url('./asset/images/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header#header-section nav#navbar-container ul li.nav-items {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    font-size: 20px;
+    margin: 5px;
+}
+
+header#header-section nav#navbar-container ul li.nav-items a.nav-link {
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    padding: 2px 4px;
+    border-width: 7px;
+}
